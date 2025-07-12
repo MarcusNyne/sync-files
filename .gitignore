@@ -1,0 +1,10 @@
+__pycache__/
+test/__pycache__/
+test/logs
+test/run
+test/output
+build/
+venv/
+*.egg-info/
+*.log
+~*
