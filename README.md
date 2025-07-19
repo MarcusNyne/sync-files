@@ -95,7 +95,7 @@ ExcludeFolders=tmp, temp
 Path=D:\Games\Data
 
 [SourceFolder:folder_b]
-Path=D:\Games\Data\Aventure\Quest
+Path=D:\Games\Data\Adventure\Quest
 ```
 
 ## Target Folders
@@ -116,12 +116,12 @@ Path=D:\Games\Data
 # target root for folder_a will be E:\
 
 [SourceFolder:folder_b]
-Path=D:\Games\Data\Aventure\Quest
-# target root for folder_b will be E:\Aventure\Quest
+Path=D:\Games\Data\Adventure\Quest
+# target root for folder_b will be E:\Adventure\Quest
 ```
 
 ```ini
-# in this example, there are two top-level source folders (they are nto nested)
+# in this example, there are two top-level source folders (they are not nested)
 [FileSyncCommand:run]
 SourceFolders=folder_a, folder_b
 TargetPath=E:\
@@ -203,7 +203,7 @@ Path=D:\Games\Data
 # certain folders will be excluded
 # by default, exclude files, but include image files, and MPG files less than 2mb in size
 [SourceFolder:folder_b]
-Path=D:\Games\Data\Aventure\Quest
+Path=D:\Games\Data\Adventure\Quest
 ExcludeFolders=tmp,temp,$*
 DefaultRule=EXCLUDE
 IncludeFiles=image_files,*.mpg|SIZE_LT:2mb
