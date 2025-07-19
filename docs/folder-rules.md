@@ -54,7 +54,7 @@ FolderTags=img|TAG=image,model*|TAG=image|NORECURSE
 # exclude folders that match rules from: [FileSyncCommand].ExcludeFolders and [SourceFolder:folder_b].ExcludeFolders,
 # which includes [[FolderSet:skip_folders]]
 [SourceFolder:folder_b]
-Path=D:\Games\Data\Aventure\Quest
+Path=D:\Games\Data\Adventure\Quest
 ExcludeFolders=skip_folders,docs
 
 # this list of folder rules are used for exclusion in folder_b
